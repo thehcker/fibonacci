@@ -1,5 +1,5 @@
 # Prompt the user to enter a number
-n = int(input("How many number? "))
+n = int(input("Enter the number of Fibonacci sequence you would like to display? "))
 
 def fibonacci(nterms):
 	count = 0
