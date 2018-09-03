@@ -1,10 +1,10 @@
 # Prompt the user to enter a number
 n = int(input("Enter the number of Fibonacci sequence you would like to display? "))
-
+count = 0
+number1 = 0
+number2 = 1
 def fibonacci(nterms):
-	count = 0
-	number1 = 0
-	number2 = 1
+	global count,number1,number2
 	# check if the number of terms is valid
 	if nterms <= 0:
 	   print("Please enter a positive integer")
